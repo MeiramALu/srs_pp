@@ -1,0 +1,6 @@
+# hybrid divisions, total 16 hardware threads
+RESULT impl=hyb N=16777216 steps=100 procs=16 threads=1 median=0.825770 min=0.806249 max=1.046969 rss_mb=506.6
+RESULT impl=hyb N=16777216 steps=100 procs=8 threads=2 median=0.826348 min=0.808681 max=0.852945 rss_mb=376.7
+RESULT impl=hyb N=16777216 steps=100 procs=4 threads=4 median=0.811770 min=0.797122 max=0.818351 rss_mb=316.2
+RESULT impl=hyb N=16777216 steps=100 procs=2 threads=8 median=0.832491 min=0.806992 max=0.939702 rss_mb=286.0
+RESULT impl=hyb N=16777216 steps=100 procs=1 threads=16 median=0.832773 min=0.827317 max=0.868018 rss_mb=272.5

@@ -1,0 +1,6 @@
+# hybrid divisions, cache-resident
+RESULT impl=hyb N=262144 steps=8000 procs=16 threads=1 median=0.338672 min=0.292076 max=0.400844 rss_mb=254.7
+RESULT impl=hyb N=262144 steps=8000 procs=8 threads=2 median=0.415668 min=0.320179 max=0.712068 rss_mb=131.0
+RESULT impl=hyb N=262144 steps=8000 procs=4 threads=4 median=0.440832 min=0.294931 max=0.771520 rss_mb=64.4
+RESULT impl=hyb N=262144 steps=8000 procs=2 threads=8 median=0.456776 min=0.338679 max=0.568485 rss_mb=37.3
+RESULT impl=hyb N=262144 steps=8000 procs=1 threads=16 median=0.460890 min=0.442936 max=0.580270 rss_mb=21.0

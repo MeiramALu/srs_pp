@@ -1,0 +1,15 @@
+VERIFY impl=omp N=1000003 steps=200 p=1 linf=0.000e+00
+VERIFY impl=omp N=1000003 steps=200 p=2 linf=0.000e+00
+VERIFY impl=omp N=1000003 steps=200 p=4 linf=0.000e+00
+VERIFY impl=omp N=1000003 steps=200 p=8 linf=0.000e+00
+VERIFY impl=omp N=1000003 steps=200 p=16 linf=0.000e+00
+VERIFY impl=mpi N=1000003 steps=200 procs=1 threads=1 linf=0.000e+00
+VERIFY impl=mpi N=1000003 steps=200 procs=2 threads=1 linf=0.000e+00
+VERIFY impl=mpi N=1000003 steps=200 procs=4 threads=1 linf=0.000e+00
+VERIFY impl=mpi N=1000003 steps=200 procs=8 threads=1 linf=0.000e+00
+VERIFY impl=mpi N=1000003 steps=200 procs=16 threads=1 linf=0.000e+00
+VERIFY impl=hyb N=1000003 steps=200 procs=16 threads=1 linf=0.000e+00
+VERIFY impl=hyb N=1000003 steps=200 procs=8 threads=2 linf=0.000e+00
+VERIFY impl=hyb N=1000003 steps=200 procs=4 threads=4 linf=0.000e+00
+VERIFY impl=hyb N=1000003 steps=200 procs=2 threads=8 linf=0.000e+00
+VERIFY impl=hyb N=1000003 steps=200 procs=1 threads=16 linf=0.000e+00

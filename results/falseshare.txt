@@ -1,0 +1,4 @@
+# false sharing
+FALSESHARE threads=2 packed=0.059 padded=0.051 ratio=1.15
+FALSESHARE threads=4 packed=0.106 padded=0.055 ratio=1.94
+FALSESHARE threads=8 packed=0.099 padded=0.071 ratio=1.40

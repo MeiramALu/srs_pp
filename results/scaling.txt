@@ -1,0 +1,16 @@
+# Mon Nov  9 10:55:02 +05 2026 N=16777216 steps=100 reps=6
+RESULT impl=omp N=16777216 steps=100 procs=1 threads=1 median=1.176599 min=1.173869 max=1.178370 rss_mb=258.5
+RESULT impl=mpi N=16777216 steps=100 procs=1 threads=1 median=1.176944 min=1.174037 max=1.178024 rss_mb=270.6
+RESULT impl=hyb N=16777216 steps=100 procs=1 threads=1 median=1.170257 min=1.167673 max=1.202789 rss_mb=270.8
+RESULT impl=omp N=16777216 steps=100 procs=1 threads=2 median=1.053682 min=1.041510 max=1.087618 rss_mb=258.3
+RESULT impl=mpi N=16777216 steps=100 procs=2 threads=1 median=1.047751 min=1.045912 max=1.056213 rss_mb=287.0
+RESULT impl=hyb N=16777216 steps=100 procs=2 threads=1 median=1.045355 min=1.040281 max=1.056008 rss_mb=285.6
+RESULT impl=omp N=16777216 steps=100 procs=1 threads=4 median=0.880278 min=0.838498 max=0.885447 rss_mb=258.5
+RESULT impl=mpi N=16777216 steps=100 procs=4 threads=1 median=0.901136 min=0.893842 max=0.928940 rss_mb=317.7
+RESULT impl=hyb N=16777216 steps=100 procs=2 threads=2 median=0.862943 min=0.851465 max=0.893569 rss_mb=286.2
+RESULT impl=omp N=16777216 steps=100 procs=1 threads=8 median=0.759859 min=0.755495 max=0.785007 rss_mb=258.6
+RESULT impl=mpi N=16777216 steps=100 procs=8 threads=1 median=0.830064 min=0.828885 max=0.851128 rss_mb=376.9
+RESULT impl=hyb N=16777216 steps=100 procs=2 threads=4 median=0.755851 min=0.753838 max=0.760192 rss_mb=286.2
+RESULT impl=omp N=16777216 steps=100 procs=1 threads=16 median=0.815475 min=0.803263 max=0.822973 rss_mb=258.1
+RESULT impl=mpi N=16777216 steps=100 procs=16 threads=1 median=0.852629 min=0.849574 max=0.956627 rss_mb=502.9
+RESULT impl=hyb N=16777216 steps=100 procs=2 threads=8 median=0.822862 min=0.815875 max=0.992719 rss_mb=287.5

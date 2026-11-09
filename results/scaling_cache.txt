@@ -1,0 +1,16 @@
+# cache-resident: N=262144 steps=8000 reps=11
+RESULT impl=omp N=262144 steps=8000 procs=1 threads=1 median=0.674059 min=0.650806 max=0.717954 rss_mb=6.5
+RESULT impl=mpi N=262144 steps=8000 procs=1 threads=1 median=0.688109 min=0.665117 max=0.718249 rss_mb=18.5
+RESULT impl=hyb N=262144 steps=8000 procs=1 threads=1 median=0.714517 min=0.702419 max=0.730002 rss_mb=18.8
+RESULT impl=omp N=262144 steps=8000 procs=1 threads=2 median=0.377638 min=0.349383 max=0.404379 rss_mb=6.4
+RESULT impl=mpi N=262144 steps=8000 procs=2 threads=1 median=0.400880 min=0.370711 max=0.422414 rss_mb=35.6
+RESULT impl=hyb N=262144 steps=8000 procs=2 threads=1 median=0.394916 min=0.374481 max=0.434227 rss_mb=34.0
+RESULT impl=omp N=262144 steps=8000 procs=1 threads=4 median=0.215376 min=0.192563 max=0.268631 rss_mb=6.3
+RESULT impl=mpi N=262144 steps=8000 procs=4 threads=1 median=0.209772 min=0.183269 max=0.254976 rss_mb=63.4
+RESULT impl=hyb N=262144 steps=8000 procs=2 threads=2 median=0.235803 min=0.176726 max=0.268818 rss_mb=34.2
+RESULT impl=omp N=262144 steps=8000 procs=1 threads=8 median=0.164139 min=0.151832 max=0.172694 rss_mb=6.0
+RESULT impl=mpi N=262144 steps=8000 procs=8 threads=1 median=0.164703 min=0.152917 max=0.187345 rss_mb=125.0
+RESULT impl=hyb N=262144 steps=8000 procs=2 threads=4 median=0.170703 min=0.163365 max=0.179296 rss_mb=33.3
+RESULT impl=omp N=262144 steps=8000 procs=1 threads=16 median=0.418829 min=0.279018 max=0.551508 rss_mb=6.2
+RESULT impl=mpi N=262144 steps=8000 procs=16 threads=1 median=0.377058 min=0.340844 max=0.984140 rss_mb=248.9
+RESULT impl=hyb N=262144 steps=8000 procs=2 threads=8 median=0.520712 min=0.331222 max=0.863752 rss_mb=38.3
